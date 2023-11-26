@@ -1,0 +1,32 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background: url(./rss/jez-timms-8muUTAmcWU4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex: 1;
+}
+
+.title{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: rgb(71, 67, 64);
+}
+
+p{
+    color: white;
+}
