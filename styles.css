@@ -6,19 +6,24 @@
     text-decoration: none;
 }
 
-html {
-    height: 100%;
+html, body{
+    margin: 0px;
+    min-height: 100%;
 }
+
+/* I finally found an answer to stretching page height here (sorta): 
+https://www.reddit.com/r/css/comments/133mrju/how_do_i_make_body_the_height_of_the_entire/?rdt=52292 */
 
 body{
     background: url(./rss/jez-timms-8muUTAmcWU4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+    margin: 0px;
+    min-height: 100dvh
 }
 
-p{
-    color: white;
+a{
+    color: inherit;
 }
 
 /* Header section*/
@@ -34,7 +39,7 @@ p{
 .login{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 250px;
     color: white;
 }
@@ -49,7 +54,7 @@ p{
     color: grey;
 }
 
-/* Section 2 */
+/* Section 1 */
 
 .container{
     display: flex;
@@ -72,6 +77,38 @@ p{
     height: 100%;
 }
 
+.hideout{
+
+}
+
+.hideout-top{
+    font-weight: bold;
+    font-size: 30px;
+    width: 300px;
+}
+
+.hideout-bottom{
+    display: flex;
+    width: 300px;
+    font-size: 15px;
+    margin: 4px;
+}
+
+.sign-in-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    margin: 4px;
+    margin-top: 8px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 3px solid gray;
+    background-color: gray;
+    color: black;
+}
+
+
 /* Section 3 */
 
 .container_2{
@@ -89,4 +126,14 @@ p{
     width: 150px;
     height: 150px;
     color: white;
+}
+
+/* Section 4 */
+
+.container_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
 }
