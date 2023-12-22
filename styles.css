@@ -132,8 +132,49 @@ a{
 
 .container_3{
     display: flex;
+    color: white;
+    height: 200px;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 200px;
+}
+
+.quotedBox{
+    display: flex;
+    width: 500px;
+    border-radius: 8px;
+}
+
+
+/* Section logSign */
+.container_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logSign{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+}
+
+.logSign-left{
+    height: 60px;
+    width: 300px;
+}
+
+.logSign-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 64px;
+}
+
+.logSign-left, .logSign-right{
+    border-radius: 8px;
 }
